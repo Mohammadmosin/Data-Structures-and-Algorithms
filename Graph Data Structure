@@ -115,7 +115,7 @@ g.add_vertex(Vertex('B'))
 for i in range(ord('A'), ord('K')):
 	g.add_vertex(Vertex(chr(i)))
 
-edges = ['AB', 'AE', 'BF', 'CG', 'DE', 'DH', 'EH', 'FG', 'FI', 'FJ', 'GJ', 'HI']
+edges = ['AB', 'AE', 'BF', 'CG', 'DE', 'DH', 'EH', 'FG', 'FI', 'FJ', 'GJ', 'HI',IF]
 for edge in edges:
 	g.add_edge(edge[:1], edge[1:])
 
